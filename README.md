@@ -83,20 +83,20 @@ Se implementan relaciones mediante llaves primarias y foráneas, asegurando inte
 
 ```plaintext
 scripts/
- ├── 00_create_database_simple.sql
- ├── 01_tables_and_constraints.sql
- ├── 02_functions.sql
- └── 03_stored_procedures.sql
+ ├── create_database_simple.sql
+ ├── tables_and_constraints.sql
+ ├── functions.sql
+ └── stored_procedures.sql
 ```
 
 ---
 
 ## ▶️ Orden de ejecución
 
-1. Ejecutar `00_create_database_simple.sql`
-2. Ejecutar `01_tables_and_constraints.sql`
-3. Ejecutar `02_functions.sql`
-4. Ejecutar `03_stored_procedures.sql`
+1. Ejecutar `create_database_simple.sql`
+2. Ejecutar `tables_and_constraints.sql`
+3. Ejecutar `functions.sql`
+4. Ejecutar `stored_procedures.sql`
 
 ---
 
